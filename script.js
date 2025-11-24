@@ -12,7 +12,7 @@ ejercicio3.addEventListener("click", () => {
 
 const dividirNumeros = (numero1, numero2) => {
     if (numero2 === 0) {
-        throw new Error("Division entre 0");
+        throw new Error("Division entree 0");
     }
 
     return numero1/numero2;
@@ -20,7 +20,7 @@ const dividirNumeros = (numero1, numero2) => {
 
 
 
-//Ejercicio 4
+// Ejercicio 4
 
 const ejercicio4 = document.getElementById("ejercicio4");
 ejercicio4.addEventListener("click", () =>{
@@ -63,6 +63,8 @@ function validarEdad(edad) {
     }
     throw new Error("Edad invalida");
 }
+
+
 
 const ejercicio6 = document.getElementById("ejercicio6");
 ejercicio6.addEventListener("click", () => {
